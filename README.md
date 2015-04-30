@@ -12,16 +12,19 @@ TBD
 Usages
 ======
 
-* Show help message
+Show help message
+-----------------
 
     til help
 
 
-* Initialize your TIL repo
+Initialize your TIL repo
+------------------------
 
     til init
 
-* Make a new TIL entry
+Make a new TIL entry
+--------------------
 
     til new
 
@@ -43,7 +46,8 @@ You are able to add metadata for your TIL entry.  The most common metadata is `t
 
     docker can use libvirt, libcontainer or lxc to access virtualization features of the kernel.
 
-* Show your TIL entries
+Show your TIL entries
+---------------------
 
     til show
 
@@ -55,4 +59,3 @@ You can also show a filtered list of your TIL entries:
 
     til show --export
     til show --tags=linux --export
-
