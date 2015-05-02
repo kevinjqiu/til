@@ -38,13 +38,9 @@ You can also write a TIL entry directly from standard input:
 Type your note and hit `Ctrl+D` when you're done.  The note should be in [markdown](http://en.wikipedia.org/wiki/Markdown) format.
 
 
-You are able to add metadata for your TIL entry.  The most common metadata is `tags`, which accepts a list of comma separated values.  Wrap the metadata in a `---` block at the top of your TIL content:
+You can also add tags to your entry:
 
-    ---
-    tags: linux,docker
-    ---
-
-    docker can use libvirt, libcontainer or lxc to access virtualization features of the kernel.
+    docker can use libvirt, libcontainer or lxc to access virtualization features of the kernel. #docker #linux
 
 Show your TIL entries
 ---------------------
