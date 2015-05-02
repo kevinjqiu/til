@@ -17,7 +17,6 @@ Show help message
 
     til help
 
-
 Initialize your TIL repo
 ------------------------
 
