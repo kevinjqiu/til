@@ -17,10 +17,12 @@ Show help message
 
     til help
 
-Initialize your TIL repo
-------------------------
+Config file
+-----------
 
-    til init
+You can generate a sample config in `$HOME/.tilrc`
+
+    til gencfg
 
 Make a new TIL entry
 --------------------
