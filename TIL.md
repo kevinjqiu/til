@@ -3,17 +3,17 @@ tcpdump
 
 ## options
 
-`-i any|eth0` - specify the interface
-`-D` - show list of interfaces
-`-n`, `-nn` - don't resolve hostname/port names
-`-X` show packet's contents in hex and ascii
-`-v`, `-vv`, `-vvv`
+* `-i any|eth0` - specify the interface
+* `-D` - show list of interfaces
+* `-n`, `-nn` - don't resolve hostname/port names
+* `-X` show packet's contents in hex and ascii
+* `-v`, `-vv`, `-vvv`
 
 ## filters
 
-`host`, `src`, `dst`, `net` (using cidr notation)
-`proto` (can be omitted, e.g., `tcpdump icmp`)
-`port`, `src port`, `dst port`
+* `host`, `src`, `dst`, `net` (using cidr notation)
+* `proto` (can be omitted, e.g., `tcpdump icmp`)
+* `port`, `src port`, `dst port`
 
 ## writing to a file
 
@@ -36,3 +36,10 @@ Dunning-Kruger effect
 The Dunning-Kruger effect is a cognitive bias wherein unskilled individuals suffer from illusory superiority, mistakenly assessing their ability to be much higher than is accurate. See [here](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
 +psychology
+
+journalctl
+==========
+
+`journactl -b` show logs since the last boot (current boot)
+
++linux
