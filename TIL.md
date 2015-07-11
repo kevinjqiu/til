@@ -8,6 +8,7 @@ tcpdump
 * `-n`, `-nn` - don't resolve hostname/port names
 * `-X` show packet's contents in hex and ascii
 * `-v`, `-vv`, `-vvv`
+* `-A` - show ascii if possible
 
 ## filters
 
