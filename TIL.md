@@ -8,6 +8,7 @@ tcpdump
 * `-n`, `-nn` - don't resolve hostname/port names
 * `-X` show packet's contents in hex and ascii
 * `-v`, `-vv`, `-vvv`
+* `-A` - show ascii if possible
 
 ## filters
 
@@ -49,6 +50,24 @@ Printer doesn't print after installing scanner driver
 Brother 7060D stuck on "Waiting for printer to become available" after installing brscan4 (the scanner driver).  Because the scanner driver adds a udev rule so that the node is owned by the `scanner` group, which is no longer accessible by `lp`.  Temporary solution is to `chown root:lp /dev/usb/002/007/`, replace `002/007` with the actual location the use node is created. (Check `lsusb`)
 +printer
 
+tmux
+====
+
+## scroll size
+
+Set scroll size:
+
+    set-option -g history-limit 3000
+
+For a new panel:
+
+    tmux set-option history-limit 5000 \; new-window
+
+For a new session:
+
+    tmux set-option -g history-limit 5000 \; new-session
+
 Ad Hominem
 ==========
 An ad hominem (Latin for "to the man" or "to the person"), short for argumentum ad hominem, means responding to arguments by attacking a person's character, rather than addressing the content of their arguments.
+=======
