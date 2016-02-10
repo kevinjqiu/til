@@ -70,3 +70,23 @@ For a new session:
 Ad Hominem
 ==========
 An ad hominem (Latin for "to the man" or "to the person"), short for argumentum ad hominem, means responding to arguments by attacking a person's character, rather than addressing the content of their arguments.
+
+Logins and Failed Logins
+========================
+
+Last logins:
+```
+last
+```
+
+Last logins for all users:
+
+```
+lastlog
+```
+
+Bad logins:
+
+```
+lastb
+```
