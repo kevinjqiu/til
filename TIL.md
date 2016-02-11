@@ -5,6 +5,12 @@ The principle of ... holds that the structure of a language affects the way in w
 
 +linguistics
 
+tru·an·cy
+=========
+
+ˈtro͞oənsē/Submit
+noun
+the action of staying away from school without good reason; absenteeism.
 
 Dunning-Kruger effect
 =====================
