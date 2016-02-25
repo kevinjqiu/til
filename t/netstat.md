@@ -1,14 +1,17 @@
 netstat
 =======
 
-List all listening connections:
+List all listening connections
+------------------------------
 
     netstat -l
 
-List all listening connections with numeric port numbers:
+List all listening connections with numeric port numbers
+--------------------------------------------------------
 
     netstat -l -n
 
-List all connections:
+List all connections
+--------------------
 
     netstat -a
