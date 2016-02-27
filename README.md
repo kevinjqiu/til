@@ -24,6 +24,10 @@
 * [scan network](t/port-scan.md#scan-network)
 * [UDP scan](t/port-scan.md#udp-scan)
 
+### [Ssh](t/ssh.md)
+
+* [Use OpenSSH with legacy SSH implementation](t/ssh.md#use-openssh-with-legacy-ssh-implementation)
+
 ### [Tcpdump](t/tcpdump.md)
 
 * [options](t/tcpdump.md#options)
