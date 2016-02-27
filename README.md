@@ -1,3 +1,12 @@
+### [Bash](t/bash.md)
+
+* [Invoke $EDITOR to write a long command](t/bash.md#invoke-editor-to-write-a-long-command)
+* [Execute a command without saving it to the history](t/bash.md#execute-a-command-without-saving-it-to-the-history)
+* [Place the argument of the most recent argument on the shell](t/bash.md#place-the-argument-of-the-most-recent-argument-on-the-shell)
+* [Nice column](t/bash.md#nice-column)
+* [Mount a temporary RAM partition](t/bash.md#mount-a-temporary-ram-partition)
+* [SSH connection through host-in-the-middle](t/bash.md#ssh-connection-through-host-in-the-middle)
+
 ### [Docker](t/docker.md)
 
 * [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
