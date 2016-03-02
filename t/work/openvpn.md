@@ -30,9 +30,9 @@ to the location on your machine.  On Ubuntu, it's `/sbin/resolvconf`
 - Add the following lines to your openvpn file (.ovpn):
 
 ```
-    script-security 3 system
-    up /etc/update-resolv-conf
-    down /etc/update-resolv-conf
+script-security 3 system
+up /etc/update-resolv-conf
+down /etc/update-resolv-conf
 ```
 - Connect!
 
