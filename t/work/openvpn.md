@@ -12,7 +12,7 @@ chmod +x /etc/update-resolv-conf.sh
 
 - Install `resolvconf` (You may already have it installed)
 ```
-apt-get install resolfconf
+apt-get install resolvconf
 ```
 - Find out where the binary is:
 ```
