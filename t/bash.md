@@ -34,3 +34,12 @@ e.g.,
 ## SSH connection through host-in-the-middle
 
     ssh -t reachable_host ssh unreachable_host
+
+## Change terminal cursor colour (gnome-terminal)
+
+    echo -ne '\e]12;#ffcc00\a'
+
+You can change the colour code here, or use symbolic colour name:
+
+    echo -ne '\e]12;white\a'
+
