@@ -6,6 +6,7 @@
 * [Nice column](t/bash.md#nice-column)
 * [Mount a temporary RAM partition](t/bash.md#mount-a-temporary-ram-partition)
 * [SSH connection through host-in-the-middle](t/bash.md#ssh-connection-through-host-in-the-middle)
+* [Change terminal cursor colour (gnome-terminal)](t/bash.md#change-terminal-cursor-colour-gnome-terminal)
 
 ### [Docker](t/docker.md)
 
@@ -42,6 +43,10 @@
 * [options](t/tcpdump.md#options)
 * [filters](t/tcpdump.md#filters)
 * [writing to a file](t/tcpdump.md#writing-to-a-file)
+
+### [Openvpn](t/work/openvpn.md)
+
+* [Automatically set the DNS to the default gateway after connect](t/work/openvpn.md#automatically-set-the-dns-to-the-default-gateway-after-connect)
 
 ### [Platform](t/work/platform.md)
 
