@@ -26,3 +26,8 @@ Ad Hominem
 ----------
 
 An ad hominem (Latin for "to the man" or "to the person"), short for argumentum ad hominem, means responding to arguments by attacking a person's character, rather than addressing the content of their arguments.
+
+mel·an·chol·y
+-------------
+
+a feeling of pensive sadness, typically with no obvious cause.
