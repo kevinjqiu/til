@@ -31,8 +31,8 @@ to the location on your machine.  On Ubuntu, it's `/sbin/resolvconf`
 
 ```
 script-security 3 system
-up /etc/update-resolv-conf
-down /etc/update-resolv-conf
+up /etc/update-resolv-conf.sh
+down /etc/update-resolv-conf.sh
 ```
 - Connect!
 
