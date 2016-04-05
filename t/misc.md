@@ -31,3 +31,9 @@ mel·an·chol·y
 -------------
 
 a feeling of pensive sadness, typically with no obvious cause.
+
+Simpson's Paradox
+-----------------
+
+[Simpson's paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox) is a paradox in probability and statistics, in which a trend appears in different groups of data but disappears or reverses when these groups are combined.
+
