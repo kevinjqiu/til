@@ -12,6 +12,7 @@
 
 * [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
 * [Delete all untagged images](t/docker.md#delete-all-untagged-images)
+* [Remove dangling images](t/docker.md#remove-dangling-images)
 
 ### [Misc](t/misc.md)
 
@@ -19,6 +20,8 @@
 * [tru·an·cy](t/misc.md#truancy)
 * [Dunning-Kruger effect](t/misc.md#dunning-kruger-effect)
 * [Ad Hominem](t/misc.md#ad-hominem)
+* [mel·an·chol·y](t/misc.md#melancholy)
+* [Simpson's Paradox](t/misc.md#simpsons-paradox)
 
 ### [Netstat](t/netstat.md)
 
