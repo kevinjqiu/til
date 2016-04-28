@@ -13,6 +13,7 @@
 * [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
 * [Delete all untagged images](t/docker.md#delete-all-untagged-images)
 * [Remove dangling images](t/docker.md#remove-dangling-images)
+* [Docker development notes](t/docker.md#docker-development-notes)
 
 ### [Misc](t/misc.md)
 
@@ -51,6 +52,7 @@
 
 * [Create an account](t/work/account.md#create-an-account)
 * [Get account by email](t/work/account.md#get-account-by-email)
+
 
 ### [Openvpn](t/work/openvpn.md)
 
