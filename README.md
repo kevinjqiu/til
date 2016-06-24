@@ -11,17 +11,11 @@
 
 ### [docker](t/docker.md)
 
-<<<<<<< HEAD
   * [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
   * [Delete all untagged images](t/docker.md#delete-all-untagged-images)
   * [Remove dangling images](t/docker.md#remove-dangling-images)
   * [Docker development notes](t/docker.md#docker-development-notes)
-=======
-* [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
-* [Delete all untagged images](t/docker.md#delete-all-untagged-images)
-* [Remove dangling images](t/docker.md#remove-dangling-images)
-* [Docker development notes](t/docker.md#docker-development-notes)
->>>>>>> origin/master
+  * [Use `exec` in wrapper scripts](t/docker.md#use-exec-in-wrapper-scripts)
 
 ### [misc](t/misc.md)
 
@@ -47,6 +41,10 @@
   * [scan network](t/port-scan.md#scan-network)
   * [UDP scan](t/port-scan.md#udp-scan)
 
+### [python](t/python.md)
+
+  * [Monkey-patch instance methods](t/python.md#monkey-patch-instance-methods)
+
 ### [ssh](t/ssh.md)
 
   * [Use OpenSSH with legacy SSH implementation](t/ssh.md#use-openssh-with-legacy-ssh-implementation)
@@ -62,12 +60,11 @@
   * [Create an account](t/work/account.md#create-an-account)
   * [Get account by email](t/work/account.md#get-account-by-email)
 
-<<<<<<< HEAD
-### [openvpn](t/work/openvpn.md)
-=======
+### [locust](t/work/locust.md)
 
-### [Openvpn](t/work/openvpn.md)
->>>>>>> origin/master
+- [Run locust swarm in distributed mode](t/work/locust.md#run-locust-swarm-in-distributed-mode)
+
+### [openvpn](t/work/openvpn.md)
 
   * [Automatically set the DNS to the default gateway after connect](t/work/openvpn.md#automatically-set-the-dns-to-the-default-gateway-after-connect)
 
