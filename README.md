@@ -11,10 +11,17 @@
 
 ### [docker](t/docker.md)
 
+<<<<<<< HEAD
   * [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
   * [Delete all untagged images](t/docker.md#delete-all-untagged-images)
   * [Remove dangling images](t/docker.md#remove-dangling-images)
   * [Docker development notes](t/docker.md#docker-development-notes)
+=======
+* [Delete all stopped containers](t/docker.md#delete-all-stopped-containers)
+* [Delete all untagged images](t/docker.md#delete-all-untagged-images)
+* [Remove dangling images](t/docker.md#remove-dangling-images)
+* [Docker development notes](t/docker.md#docker-development-notes)
+>>>>>>> origin/master
 
 ### [misc](t/misc.md)
 
@@ -55,7 +62,12 @@
   * [Create an account](t/work/account.md#create-an-account)
   * [Get account by email](t/work/account.md#get-account-by-email)
 
+<<<<<<< HEAD
 ### [openvpn](t/work/openvpn.md)
+=======
+
+### [Openvpn](t/work/openvpn.md)
+>>>>>>> origin/master
 
   * [Automatically set the DNS to the default gateway after connect](t/work/openvpn.md#automatically-set-the-dns-to-the-default-gateway-after-connect)
 
