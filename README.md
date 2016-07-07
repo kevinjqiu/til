@@ -1,3 +1,8 @@
+### [archlinux](t/archlinux.md)
+
+- [Pacman](t/archlinux.md#pacman)
+  * [Pacman fails signature verification](t/archlinux.md#pacman-fails-signature-verification)
+
 ### [bash](t/bash.md)
 
 - [Shell](t/bash.md#shell)
