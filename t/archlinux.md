@@ -15,4 +15,4 @@ Because `makepkg` uses gpg and is unaware of the pacman's keyring. Do this:
     # run as root
     gpg --list-keys
 
-Add `keyring /etc/pacman.d/gnupg/pubring.gpg` to the end of `~/.gnupg/gpg.conf`.
+Receive the keys using `pacman-key -r KEY_ID` first, and then, add `keyring /etc/pacman.d/gnupg/pubring.gpg` to the end of `~/.gnupg/gpg.conf`.
