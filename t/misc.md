@@ -37,3 +37,8 @@ Simpson's Paradox
 
 [Simpson's paradox](https://en.wikipedia.org/wiki/Simpson%27s_paradox) is a paradox in probability and statistics, in which a trend appears in different groups of data but disappears or reverses when these groups are combined.
 
+Parkinson's Law of Triviality
+-----------------------------
+Parkinson's law of triviality is C. Northcote Parkinson's 1957 argument that members of an organisation give disproportionate weight to trivial issues.
+
+Also known as bike-shed effect.
