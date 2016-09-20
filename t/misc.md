@@ -42,3 +42,7 @@ Parkinson's Law of Triviality
 Parkinson's law of triviality is C. Northcote Parkinson's 1957 argument that members of an organisation give disproportionate weight to trivial issues.
 
 Also known as bike-shed effect.
+
+Whataboutism
+------------
+https://en.wikipedia.org/wiki/Whataboutism
