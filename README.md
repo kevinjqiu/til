@@ -10,7 +10,8 @@
 
 ### [Archlinux](t/archlinux.md)
 
-* [Pacman fails signature verification](t/archlinux.md#pacman-fails-signature-verification)
+  * [Pacman fails signature verification](t/archlinux.md#pacman-fails-signature-verification)
+* [EFI](t/archlinux.md#efi)
 
 ### [Bash](t/bash.md)
 
@@ -38,6 +39,8 @@
 * [Ad Hominem](t/misc.md#ad-hominem)
 * [mel·an·chol·y](t/misc.md#melancholy)
 * [Simpson's Paradox](t/misc.md#simpsons-paradox)
+* [Parkinson's Law of Triviality](t/misc.md#parkinsons-law-of-triviality)
+* [Whataboutism](t/misc.md#whataboutism)
 
 ### [Netstat](t/netstat.md)
 
@@ -60,6 +63,12 @@
 ### [Ssh](t/ssh.md)
 
 * [Use OpenSSH with legacy SSH implementation](t/ssh.md#use-openssh-with-legacy-ssh-implementation)
+
+### [Tc](t/tc.md)
+
+* [Inject latency](t/tc.md#inject-latency)
+* [Remove the rule](t/tc.md#remove-the-rule)
+* [List the rules](t/tc.md#list-the-rules)
 
 ### [Tcpdump](t/tcpdump.md)
 
