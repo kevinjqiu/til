@@ -26,3 +26,12 @@ Host somehost.example.org
 ```
 
 See also: [this article](http://www.openssh.com/legacy.html)
+
+SSH Tunneling
+--------------
+
+    ssh -L <remote_port>:localhost:<local_port> user@host
+
+e.g.,
+
+    ssh -L 5984:localhost:5984 -i /path/to/key ubuntu@ip
