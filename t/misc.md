@@ -46,3 +46,10 @@ Also known as bike-shed effect.
 Whataboutism
 ------------
 https://en.wikipedia.org/wiki/Whataboutism
+
+vit·ri·ol·ic
+-------------
+ˌvitrēˈälik/Submit
+adjective
+filled with bitter criticism or malice.
+"vitriolic attacks on the politicians"
