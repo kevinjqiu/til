@@ -27,6 +27,15 @@ For a new session:
 
     tmux set-option -g history-limit 5000 \; new-session
 
+Redraw tmux window when switching smaller monitor to a bigger one
+
+    tmux attach -d
+
+From tmux man page:
+```
+If -d is specified, any other clients attached to the session are detached.
+```
+
 Logins and Failed Logins
 ========================
 
