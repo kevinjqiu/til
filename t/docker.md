@@ -23,6 +23,13 @@ Remove dangling images
 docker rmi -f $(docker images -q -a -f dangling=true)
 ```
 
+Remove dangling volumes
+-----------------------
+
+```
+docker volume ls -qf dangling=true | xargs -r docker volume rm
+```
+
 Docker development notes
 ------------------------
 
