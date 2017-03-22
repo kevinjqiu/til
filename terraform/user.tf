@@ -1,3 +1,7 @@
+provider "aws" {
+    region = "us-east-1"
+}
+
 resource "aws_iam_user" "deployuser" {
   name = "deployuser"
   path = "/"
@@ -8,7 +12,7 @@ resource "aws_iam_access_key" "deployuser" {
 }
 
 resource "aws_iam_user_policy" "deployuser_policy" {
-  name = ""
+  name = "s3"
   user = "${aws_iam_user.deployuser.name}"
 
   policy = <<EOF
