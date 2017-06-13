@@ -21,6 +21,9 @@ To debug it, spin up a separate container using, say, `alpine` image and have it
 	   14 root       0:00 ps
 	/ # 
 
+To have the same root file system, add `--volumes-from 60c1c49379cf`.
+
+
 [Here](https://medium.com/@rothgar/how-to-debug-a-running-docker-container-from-a-separate-container-983f11740dc6) for more details
 
 Delete all stopped containers
