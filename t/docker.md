@@ -1,6 +1,30 @@
 Docker
 ======
 
+Debugging scratch containers
+----------------------------
+
+Containers made from `scratch` images have no `/bin/sh` or anything except for the binary for the container to run.
+
+To debug it, spin up a separate container using, say, `alpine` image and have it spawn in the same namespace as the container you're trying to debug:
+
+	$ docker run -it --rm --pid=container:60c1c49379cf --net=container:60c1c49379cf alpine sh
+	Unable to find image 'alpine:latest' locally
+	latest: Pulling from library/alpine
+	2aecc7e1714b: Pull complete 
+	Digest: sha256:0b94d1d1b5eb130dd0253374552445b39470653fb1a1ec2d81490948876e462c
+	Status: Downloaded newer image for alpine:latest
+	/ # ps
+	PID   USER     TIME   COMMAND
+		1 root       0:04 /traefik --configfile=/config/traefik.toml
+	   10 root       0:00 sh
+	   14 root       0:00 ps
+	/ # 
+
+To have the same root file system, add `--volumes-from 60c1c49379cf`.
+
+
+[Here](https://medium.com/@rothgar/how-to-debug-a-running-docker-container-from-a-separate-container-983f11740dc6) for more details
 
 Delete all stopped containers
 -----------------------------
