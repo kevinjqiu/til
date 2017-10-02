@@ -43,3 +43,6 @@ You can change the colour code here, or use symbolic colour name:
 
     echo -ne '\e]12;white\a'
 
+## Check battery status
+
+    upower -i $(upower -e | grep 'BAT')
