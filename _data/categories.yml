@@ -1,0 +1,6 @@
+enabled: true
+names:
+  - Linux
+  - Kubernetes
+  - Docker
+  - Others

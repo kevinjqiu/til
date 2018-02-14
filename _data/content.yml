@@ -1,0 +1,22 @@
+home:
+  title: "Kevin's TIL"
+  tagline: |
+    Today I Learned -- doesn't have to be "Today" though
+
+top_nav:
+  title: TIL
+  edit: Edit
+  edit_on_github: Edit this page on GitHub
+
+sheet:
+  suffix: notes
+
+search_form:
+  default_placeholder: Search SIZE+ cheatsheets
+  home_placeholder: Search...
+  prefix: til
+
+not_found:
+  title: Not found
+  description: Maybe I haven't learned it yet. Tell me!
+  home: Back to home
