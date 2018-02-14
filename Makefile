@@ -27,3 +27,6 @@ dev-jekyll:
 		else \
 		bundle exec jekyll serve --safe --trace --drafts --watch --port $(PORT); \
 		fi
+
+build-docker:
+	docker build -t kevinjqiu/til-build .

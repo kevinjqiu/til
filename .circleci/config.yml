@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: kevinjqiu/til-build
+    working_directory: /til
+    steps:
+      - checkout
+      - run: make _site
