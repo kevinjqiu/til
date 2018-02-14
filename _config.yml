@@ -50,7 +50,7 @@ defaults:
 
 # Site info
 
-url: https://blog.idempotent.ca/til
+url: http://til.idempotent.ca
 title: Kevin's TIL
 
 # GitHub metadata
