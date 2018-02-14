@@ -33,3 +33,9 @@ setup:
 
 build-docker:
 	docker build -t kevinjqiu/til-build .
+
+publish:
+	git config --global user.email kevin@idempotent.ca
+	git config --global user.name "Kevin Jing Qiu"
+	git commit -am "Publish Site"
+	git push origin master
