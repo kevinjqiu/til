@@ -28,5 +28,8 @@ dev-jekyll:
 		bundle exec jekyll serve --safe --trace --drafts --watch --port $(PORT); \
 		fi
 
+setup:
+	bundle install && npm install
+
 build-docker:
 	docker build -t kevinjqiu/til-build .
