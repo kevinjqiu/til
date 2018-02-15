@@ -29,7 +29,7 @@ dev-jekyll:
 		fi
 
 setup:
-	bundle install && npm install yarn && yarn install
+	bundle install && yarn install
 
 build-docker:
 	docker build -t kevinjqiu/til-build .

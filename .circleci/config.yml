@@ -6,8 +6,5 @@ jobs:
     working_directory: /til
     steps:
       - checkout
-      - run: ls -l
       - run: make setup _site
-      - run: pwd
-      - run: ls -l bin/
       - run: bin/publish.sh
