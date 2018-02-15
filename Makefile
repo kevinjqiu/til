@@ -38,4 +38,4 @@ push-docker:
 	docker push kevinjqiu/til-build
 
 publish:
-	bin/deploy.sh
+	bin/publish.sh
