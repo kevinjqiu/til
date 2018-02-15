@@ -6,4 +6,5 @@ jobs:
     working_directory: /til
     steps:
       - checkout
+      - run: ls -l
       - run: make setup _site publish
