@@ -3,6 +3,12 @@ title: Git tricks
 category: Git
 ---
 
+## Status
+
+Check if the working dir is clean:
+
+    [[ -z $(git status -s) ]] && ...
+
 ## Refs
 
     HEAD^       # 1 commit before head
