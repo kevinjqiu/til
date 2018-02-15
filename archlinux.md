@@ -1,7 +1,6 @@
 ---
 title: archlinux
 category: Linux
-layout: 2017/sheet
 tags: []
 updated: 2018-02-14
 weight: -10
@@ -19,7 +18,6 @@ Brother 7060D stuck on "Waiting for printer to become available" after installin
 
 Pacman
 ------
-{: .-one-column}
 
 ### Pacman fails signature verification
 
@@ -38,7 +36,6 @@ Receive the keys using `pacman-key -r KEY_ID` first, and then, add `keyring /etc
 
 EFI
 ---
-{: .-one-column}
 
 In case Window upgrade breaks EFI and you get this message:
 

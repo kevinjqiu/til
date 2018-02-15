@@ -5,6 +5,9 @@ layout: 2017/sheet
 updated: 2018-02-14
 ---
 
+# git
+{: .-one-column}
+
 ## Status
 
 Check if the working dir is clean:
