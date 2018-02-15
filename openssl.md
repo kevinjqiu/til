@@ -26,3 +26,11 @@ openssl
 ### View the full details of a site's cert
 
     echo | openssl s_client -servername ... -connect ...:443 2>/dev/null | openssl x509 -text
+
+### Check a certificate (e.g., ca.crt)
+
+    openssl x509 -in ca.crt -text -noout
+
+### Check a private key
+
+    openssl rsa -in privateKey.key -check
