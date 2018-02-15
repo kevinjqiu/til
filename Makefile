@@ -30,12 +30,3 @@ dev-jekyll:
 
 setup:
 	bundle install && yarn install
-
-build-docker:
-	docker build -t kevinjqiu/til-build .
-
-push-docker:
-	docker push kevinjqiu/til-build
-
-publish:
-	bin/publish.sh
