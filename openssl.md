@@ -11,7 +11,7 @@ intro: |
 
 openssl
 -------
-{: .-three-column}
+{: .-two-column}
 
 ### Show certificate info from a remote host (with SNI)
 
