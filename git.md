@@ -5,22 +5,23 @@ layout: 2017/sheet
 updated: 2018-02-14
 ---
 
-# git
+git
+---
 {: .-one-column}
 
-## Status
+### Status
 
 Check if the working dir is clean:
 
     [[ -z $(git status -s) ]] && ...
 
-## Refs
+### Refs
 
     HEAD^       # 1 commit before head
     HEAD^^      # 2 commits before head
     HEAD~5      # 5 commits before head
 
-## Branches
+### Branches
 
     # create a new branch
       git checkout -b $branchname
@@ -39,7 +40,7 @@ Check if the working dir is clean:
     # delete remote branch
       git push origin :$branchname
       
-## Collaboration
+### Collaboration
 
     # Rebase your changes on top of the remote master
       git pull --rebase upstream master
@@ -50,6 +51,8 @@ Check if the working dir is clean:
 
 Submodules
 ----------
+{: .-one-column}
+
 
     # Import .gitmodules
       git submodule init
@@ -63,6 +66,7 @@ Submodules
 
 Diff
 ----
+{: .-one-column}
 
 ### Diff with stats
 
@@ -77,6 +81,7 @@ Diff
 
 Log options
 -----------
+{: .-one-column}
 
     --oneline
       e11e9f9 Commit message here
@@ -92,6 +97,7 @@ Log options
 
 Misc
 ----
+{: .-one-column}
 
 ### Cherry pick
 
