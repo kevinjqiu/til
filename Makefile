@@ -37,9 +37,12 @@ build-docker:
 push-docker:
 	docker push kevinjqiu/til-build
 
-publish:
+_publish:
 	git config --global user.email kevin@idempotent.ca
 	git config --global user.name "Kevin Jing Qiu"
 	git stash && git checkout master && git stash pop
 	git commit -am "Publish Site"
 	git push origin master
+
+publish:
+	[[ -z $$(git status -s) ]] && make _publish
