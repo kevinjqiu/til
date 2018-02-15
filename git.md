@@ -1,6 +1,8 @@
 ---
 title: Git tricks
 category: Git
+layout: 2017/sheet
+updated: 2018-02-14
 ---
 
 ## Status
