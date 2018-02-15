@@ -1,5 +1,4 @@
-#! /bin/bash
-
+#! /bin/sh
 
 if [[ -z $(git status -s) ]]; then
     echo "Nothing to publish"
