@@ -1,6 +1,6 @@
 #! /bin/sh
 
-if [[ -z $(git status -s) ]]; then
+if [[ -z $(git status -s | grep _site) ]]; then
     echo "Nothing to publish"
 else
     git config --global user.email kevin@idempotent.ca
