@@ -22,4 +22,6 @@ Use -v=N to increase verbosity
 * level 8 adds the raw response body (truncated)
 * level 9 response body untruncated
 
+e.g.,
+
     kubectl get pods -v=6
