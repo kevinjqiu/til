@@ -30,3 +30,19 @@ intro: |
 ### Check a private key
 
     openssl rsa -in privateKey.key -check
+
+### Extract CSR from a certificate
+
+    openssl x509 -in domain.crt -signkey domain.key -x509toreq -out domain.csr
+
+### Verify a cert was signed by the CA
+
+    openssl verify -verbose -CAfile ca.crt domain.crt
+
+### Verify a private key matches CSR and cert
+
+    openssl rsa -noout -modulus -in domain.key | openssl sha256
+    openssl x509 -noout -modulus -in domain.crt | openssl sha256
+    openssl req -noout -modulus -in domain.csr | openssl sha256
+
+The three outputs should match
