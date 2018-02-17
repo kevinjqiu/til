@@ -13,6 +13,10 @@ Shell
 -----
 {: .-three-column}
 
+### place the argument of the most recent argument on the shell
+
+    <ALT>. or <ESC>.
+
 ### Invoke $EDITOR to write a long command
 
     ctrl-x e
