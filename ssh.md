@@ -46,3 +46,7 @@ See also: [this article](http://www.openssh.com/legacy.html)
 e.g.,
 
     ssh -L 5984:localhost:5984 -i /path/to/key ubuntu@ip
+
+### Derive public key from a private key
+
+     ssh-keygen -y -f ~/.ssh/id_rsa_pts
