@@ -46,3 +46,7 @@ intro: |
     openssl req -noout -modulus -in domain.csr | openssl sha256
 
 The three outputs should match
+
+### View certificate signing request
+
+    openssl req -in foo.csr -text
